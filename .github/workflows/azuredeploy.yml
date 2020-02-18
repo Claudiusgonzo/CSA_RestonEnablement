@@ -17,7 +17,7 @@ env:
   AZURE_WEBAPP_NAME: github-va-20200218    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '10.x'                # set this to the node version to use
-  SLOTNAME: 'github-va-20200218-qa'
+  SLOTNAME: 'github-va-20200218-github-va-20200218-dev'
 
 jobs:
   build-and-deploy:
@@ -40,6 +40,6 @@ jobs:
       uses: azure/webapps-deploy@v1
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_QA }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_DEV }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
         slot-name: ${{ env.SLOTNAME }}
