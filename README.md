@@ -1,6 +1,6 @@
-# Warmer Welcome
+# Blue Sky Welcome
 
-![Warmth](https://i.ytimg.com/vi/_5ZTdWfgoDA/maxresdefault.jpg)
+![Warmth](http://rabbisacks.org/wp-content/uploads/2012/04/The-Bright-Sun-Blue-Sky-Clouds.jpg)
 
 ## Welcome
 
